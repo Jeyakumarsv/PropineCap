@@ -1,0 +1,29 @@
+{
+  "name": "headlineconverter",
+  "version": "1.0.0",
+  "description": "Convertin New Headlines Country names to uppercase",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeyakumarsv/PropineCap.git"
+  },
+  "keywords": [
+    "Headline",
+    "node"
+  ],
+  "author": "Jeyakumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeyakumarsv/PropineCap/issues"
+  },
+  "homepage": "https://github.com/Jeyakumarsv/PropineCap#readme",
+  "dependencies": {
+    "cities.json": "^1.1.5",
+    "cli-progress": "^2.1.1",
+    "request": "^2.88.0",
+    "ya-csv": "^0.10.1"
+  }
+}
