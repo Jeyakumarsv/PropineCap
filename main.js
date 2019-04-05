@@ -122,14 +122,10 @@ async function getFile(CountryList) {
                                 }
                                 for (j in CountryList[i])  // Loop to convert Cities Names
                                 {
-                                    //console.log("City "+CountryList[i][j]);
-                                    //console.log("Country "+country[0] + "City "+ CountryList[i][j][0])
-                                    if (country[0] !== CountryList[i][j][0]) continue;
-
+                                   if (country[0] !== CountryList[i][j][0]) continue;
                                     if (CountryList[i][j] === country) {
                                         return true;
                                     }
-
                                 }
                             }
 
